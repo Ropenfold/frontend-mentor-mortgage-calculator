@@ -144,6 +144,10 @@ export default function Home() {
     setMonthlyRepayment('');
     setTotalInterest('');
     dataAdded(false);
+    setMortgageAmountInvalid(false);
+    setMortgageTermInvalid(false);
+    setInterestRateInvalid(false);
+    setMortgageTypeInvalid(false);
    }
 
   return (
